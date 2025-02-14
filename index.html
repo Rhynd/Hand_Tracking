@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Tracking</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <style>
+        body { display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #181a1b;
+        }
+        video {
+            display: none;
+        }
+        canvas {
+            border: 3px solid #484745;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+<video id="video" autoplay></video>
+<canvas id="canvas" width="640" height="480"></canvas>
+</body>
+</html>
+<script src="handtracking.js"></script>
