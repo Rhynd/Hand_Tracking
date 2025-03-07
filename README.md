@@ -1,5 +1,5 @@
 # Hand_Tracking
-Small project made using HTML, CSS and Java Script
+Small project made using HTML, CSS and JavaScript
 
 With tensorflow
 
